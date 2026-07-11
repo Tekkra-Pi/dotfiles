@@ -2,11 +2,11 @@
 
 ```
 dotfiles/
-├── laptop/   → HP Pavilion dv7 (Linux Mint 22.3)
+├── laptop-linuxmint/   → laptop (Linux Mint)
 └── desktop/  → Main PC (coming soon)
 ```
 
-## laptop (HP Pavilion dv7 — Linux Mint 22.3)
+## laptop-linuxmint
 
 - **WM:** niri (Wayland compositor)
 - **Bar:** waybar (Catppuccin Mocha)
@@ -18,5 +18,5 @@ dotfiles/
 Deploy with stow:
 
 ```sh
-stow -t ~ laptop
+stow -t ~ laptop-linuxmint
 ```
