@@ -2,7 +2,7 @@
 
 ```
 dotfiles/
-├── laptop/   → Lenovo ThinkPad (Linux Mint 22.3)
+├── laptop/   → HP Pavilion dv7 (Linux Mint 22.3)
 └── desktop/  → Main PC (coming soon)
 ```
 
