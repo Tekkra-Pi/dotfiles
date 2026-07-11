@@ -1,0 +1,55 @@
+* {
+  border: none;
+  border-radius: 0;
+  font-family: "JetBrainsMono Nerd Font", "FiraCode Nerd Font", monospace;
+  font-size: 13px;
+  min-height: 0;
+}
+
+window#waybar {
+  background: rgba(30, 30, 46, 0.92);
+  color: #cdd6f4;
+  border-bottom: 2px solid #313244;
+}
+
+#custom-workspaces {
+  padding: 0 12px;
+  font-size: 10px;
+}
+
+#clock {
+  color: #b4befe;
+  padding: 0 12px;
+}
+
+#pulseaudio {
+  color: #a6e3a1;
+  padding: 0 8px;
+}
+
+#pulseaudio.muted {
+  color: #6c7086;
+}
+
+#network {
+  color: #89b4fa;
+  padding: 0 8px;
+}
+
+#network.disconnected {
+  color: #f38ba8;
+}
+
+#cpu {
+  color: #fab387;
+  padding: 0 8px;
+}
+
+#memory {
+  color: #f9e2af;
+  padding: 0 8px;
+}
+
+#tray {
+  padding: 0 8px;
+}
